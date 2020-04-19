@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+    margin:-5px;
+    color:#0B5345;
+}
+
+#info-1 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    color: #33686C;
+}
+
+a{
+    text-decoration: none;
+    color: #33686C;
+}
+
+a:hover{
+
+}
+
+#pencil {
+    font-size: 50px;
+}
+
+.todolist-main {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 60vw;
+    display: block;
+    margin: 20px auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+input {
+    font: 1em 'Comic Neue', cursive;
+    height: 35px;
+    width: 340px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin: auto;
+}
+
+input:focus, input:hover {
+    font-weight: bold;
+    outline-color: #64A194;
+}
+
+button {
+    margin: 10px;
+    font: 1em 'Comic Neue', cursive;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #407E6C;
+    font-weight: bold;
+    color: white;
+}
+
+.todos-list {
+    font: 20px 'Comic Neue', cursive;
+    width: 500px;
+    list-style: none;
+    padding: 0;
+    margin: 15px auto;
+}
+
+.todo {
+    background-color: #DFECE9;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.todo:hover{
+    background-color:#B6CEC9;
+    font-weight: bold;
+}
+
+.imgClick:hover {
+    cursor: pointer;
+}
